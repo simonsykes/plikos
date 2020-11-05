@@ -42,7 +42,7 @@ function setup() {
     
        plinkos.push(new Plinko(j,275));
     }
-
+      
      for (var j = 50; j <=width-10; j=j+50) 
     {
     
@@ -50,7 +50,13 @@ function setup() {
     }
 
     
-
+    particle=new Particle(mouseX,10,10,10);   
+    
+    
+    
+    
+    
+    
     
 }
  
